@@ -9,6 +9,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
 
 
 
@@ -32,7 +36,8 @@
 
 		h2
 		{
-			font-size: 30px;
+			font-size: 25px;
+			font-family: 'Audiowide', cursive;
 		}
 		h3
 		{
@@ -49,26 +54,37 @@
 
 		}
 
+		.toptop
+			{
+				background-color: silver;
+				padding: 0%;
+				font-family: 'Audiowide', cursive;
+			}
+
 		.top
 		{
 			padding: 0%;
-			height : 60%;
+			min-height : 60%;
 			background-color: white;
 			margin: 0 auto;
 			text-align: center;
 			font-size: 20px;
+
+			background-image: url("https://images.unsplash.com/photo-1427464407917-c817c9a0a6f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=812662922febc6b1006719224d6c3772");
+			background-size: cover;
+			background-position: center center;
 		}
 
 		.mid
 		{
 			/*height: 25%;*/
-			height: 30%;
+			min-height: 30%;
 			background-color: white;
 		}
 
 		.bottom
 		{
-			height: 25%;
+			min-height: 25%;
 			background-color: blue;
 		}
 		.name {
@@ -94,17 +110,19 @@
 </head>
 
 <body>
-	<h1>About Me</h1>
-	
-	<div class="name"><i class="fa fa-user person-icon" aria-hidden="true"></i> Vinh Tran</div>
-	<hr noshade>  <!-- border line -->
+	<div class = "toptop" id = "toptop">
+			<h1>About Me</h1>
+			<div class="name"><i class="fa fa-user person-icon" aria-hidden="true"></i>Vinh Tran</div>
+			<hr noshade> <!-- border line -->
 
-	<div class="btn-group btn-group-justified">
-		<a href="index.html" class="btn btn-primary">Home</a>
-		<a href="AboutMePage.html" class="btn btn-primary">About Me </a>
-		<a href="#" class="btn btn-primary">Projects</a>
-		<a href="#" class="btn btn-primary">Hobbies/Interests</a>
-	</div>
+
+			<div class="btn-group btn-group-justified">
+			<a href="index.html" class="btn btn-primary">Home</a>
+			<a href="AboutMePage.html" class="btn btn-primary">About Me </a>
+			<a href="#" class="btn btn-primary">Projects</a>
+			<a href="#" class="btn btn-primary">Hobbies/Interests</a>
+			</div>
+		</div>
 
 	<div class = "top" id = "top">
 
@@ -153,19 +171,20 @@
 	</div>
 
 
-	<div class = "mid" id = "mid">
+	<!-- <div class = "mid" id = "mid">
 
 		MID SECTION
 
 
 		
 
-	</div>
+	</div> -->
 
-	<div class = "bottom" id = "bottom">
+	<!-- <div class = "bottom" id = "bottom">
 		bottom section
-	</div>
+	</div> -->
 
+	
 	
 	
 	
