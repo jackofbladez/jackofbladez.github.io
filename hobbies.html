@@ -24,8 +24,8 @@
 
 <body>
 	<div class = "toptop" id = "toptop">
-		<h1>About Me</h1>
-		<div class="name"><i class="fa fa-user person-icon" aria-hidden="true"></i>Vinh Tran</div>
+		<h1><center>Hobbies/Interests<center></h1>
+		<div class="name"><center><i class="fa fa-user person-icon" aria-hidden="true"></i><center>Vinh Tran<center></div>
 		<hr noshade> <!-- border line -->
 
 
@@ -42,35 +42,43 @@
 		<br><br>
 		<h1><u>Hobbies and Interests</u></h1>
 		<br><br>
-		<h1><u> Video Games </u></h1>
+		<h1><u> Video Games: </u></h1>
 		<br>
+
+		<h4><u> Dark Souls 2 </u></h4>
 		<p align="left">
-		Hi
+		I like to play mediveal action rpg games such as Dark Souls. It is a Japanese made game and has won many awards and received high game rating reviews. It is one of my favorite games. Below are some in game screenshots I took of my play through of the video game Dark Souls 2.
 		</p>
-		<br>
+		<br><br>
 
 
 
 		<div id ="mygallery">
-			<a href = "darksoulfolder/dark souls1.jpg" data-lightbox="image-1" data-title="Dark Souls Pic">
-			<img alt ="Title 1" src ="image/dgclub.jpg"></a>
-			<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-			<img alt ="Title 2" src ="image/dgclub.jpg"></a>
-			<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-			<img alt ="Title 3" src ="image/dgclub.jpg"></a>
-			<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-			<img alt ="Title 4" src ="image/dgclub.jpg"></a>
-			<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-			<img alt ="Title 5" src ="image/dgclub.jpg"></a>
+			<a href = "darksoulfolder/darksouls1.png" data-lightbox="image-1" data-title="Dark Souls Pic"><img alt ="Dragon Shrine" src ="darksoulfolder/darksouls1.png"></a>
+			<a href = "darksoulfolder/darksouls2.png" data-lightbox="image-1" data-title="Dark Souls Pic"><img alt ="Confronting the Ancient Dragon" src ="darksoulfolder/darksouls2.png"></a>
+			<a href = "darksoulfolder/darksouls3.png" data-lightbox="image-1" data-title="Dark Souls Pic"><img alt ="Glorious Sunrise" src ="darksoulfolder/darksouls3.png"></a>
+			<a href = "darksoulfolder/darksouls4.png" data-lightbox="image-1" data-title="Dark Souls Pic"><img alt ="Encounter with the Ancient Knight" src ="darksoulfolder/darksouls4.png"></a>
+			<a href = "darksoulfolder/darksouls5.png" data-lightbox="image-1" data-title="Dark Souls Pic"><img alt ="Praise the Sun yo" src ="darksoulfolder/darksouls5.png"></a>
+			<a href = "darksoulfolder/darksouls6.png" data-lightbox="image-1" data-title="Dark Souls Pic"><img alt ="Arrived at Drangelic Castle" src ="darksoulfolder/darksouls6.png"></a>
+
+		
 		</div>
 
 		<br><br><br><br>
-		<h1><u> Anime </u></h1>
+		<h4><u> Witcher 3 </u></h4>
 		<br>
 		<p align="left">
-		Hi
+		Another medieval rpg action game I like to play is the Witcher 3. It is developed by the Polish and has received many awardsa and nominations. I haven't gotten too far in the game yet, but here are some screen shots of my adventure below.
 		</p>
+		<br><br>
 
+		<div id ="mygallery2">
+		<a href = "witcher3/witcher1.jpg" data-lightbox="image-1" data-title="Witcher 3"><img alt ="Starting the Game" src ="witcher3/witcher1.jpg"></a>
+		<a href = "witcher3/witcher2.jpg" data-lightbox="image-1" data-title="Witcher 3"><img alt ="Midnight at the Crones" src ="witcher3/witcher2.jpg"></a>
+		<a href = "witcher3/witcher3.jpg" data-lightbox="image-1" data-title="Witcher 3"><img alt ="Ciri running" src ="witcher3/witcher3.jpg"></a>
+		<a href = "witcher3/witcher4.jpg" data-lightbox="image-1" data-title="Witcher 3"><img alt ="First City in Game" src ="witcher3/witcher4.jpg"></a>
+		<a href = "witcher3/witcher5.jpg" data-lightbox="image-1" data-title="Witcher 3"><img alt ="First Castle Spotted" src ="witcher3/witcher5.jpg"></a>
+		</div>
 
 		</div>
 
@@ -79,6 +87,11 @@
 		<script src="js/jquery.justifiedGallery.min.js"></script>
 		<script>
 		$("#mygallery").justifiedGallery({
+		rowHeight: 400,
+		lastRow: 'justify', maxRowHeight: '100%'
+		});
+
+		$("#mygallery2").justifiedGallery({
 		rowHeight: 400,
 		lastRow: 'justify', maxRowHeight: '100%'
 		});
