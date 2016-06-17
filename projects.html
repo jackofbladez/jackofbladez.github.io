@@ -15,8 +15,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	
 	<link rel="stylesheet" href="css/justifiedGallery.min.css">
-	
-
 	<link href="css/lightbox.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
@@ -25,8 +23,13 @@
 <body>
 	<div class = "toptop" id = "toptop">
 		<h1><center>Projects<center></h1>
-		<div class="name"><center><i class="fa fa-user person-icon" aria-hidden="true"></i><center>Vinh Tran<center></div>
-		<hr noshade> <!-- border line -->
+			<div class="name"><!-- <center><i class="fa fa-user person-icon" aria-hidden="true"></i> -->
+			<div class="container">
+			<center><img src="image/profilepic.jpg" class="img-thumbnail" style = "width: 10%; height: 10%" alt="Vinh Tran"><center>
+			 </div>
+			<center>Vinh Tran<center></div>
+
+			<hr noshade> <!-- border line -->
 
 
 		<div class = "row">
@@ -43,26 +46,25 @@
 		<h4><u>Road Runner Computer Game</u></h4>
 		<br>
 		<p align="left">
-			My team and I at the computer science DG Club (Developer's Guild Club) made a simple
-			computer game. The team consisted of 5 people and the game took a total time of 
-			about 3-4 months to complete. The game was worked on mostly what little free time
-			we had during the busy school quarter.
+			My team and I at the computer science DG Club (Developer's Guild Club) made a simple computer game. The team consisted of 5 people and the game took a total time of about 3-4 months to complete. 
+			The game was made during Fall 2015. Road Runner is an arcade action side scrolling running game. Some screen shots of the game shown below.
 		</p>
 		<br>
 
 
 
 		<div id ="mygallery">
-		<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-		<img alt ="Title 1" src ="image/dgclub.jpg"></a>
-		<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-		<img alt ="Title 2" src ="image/dgclub.jpg"></a>
-		<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-		<img alt ="Title 3" src ="image/dgclub.jpg"></a>
-		<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-		<img alt ="Title 4" src ="image/dgclub.jpg"></a>
-		<a href = "image/dgclub.jpg" data-lightbox="image-1" data-title="Dg Club">
-		<img alt ="Title 5" src ="image/dgclub.jpg"></a>
+
+		<a href = "roadrunner/1.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="Road Runner approaching boulder" src ="roadrunner/1.jpg"></a>
+		<a href = "roadrunner/2.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="Watch out for the bad coyote chasing you!" src ="roadrunner/2.jpg"></a>
+		<a href = "roadrunner/3.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="Be prepared to jump over the boulder!" src ="roadrunner/3.jpg"></a>
+		<a href = "roadrunner/4.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="Dodge the coyote!" src ="roadrunner/4.jpg"></a>
+		<a href = "roadrunner/5.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="Watch out!" src ="roadrunner/5.jpg"></a>
+		<a href = "roadrunner/6.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="Dodge the tumbling hay stack!" src ="roadrunner/6.jpg"></a>
+		<a href = "roadrunner/7.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="Become Sanic with the &quot;power up&quot;!" src ="roadrunner/7.jpg"></a>
+		<a href = "roadrunner/8.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt = "Jump as the Road Runner" src ="roadrunner/8.jpg"></a>
+		<a href = "roadrunner/9.jpg" data-lightbox="imageset1" data-title="Road Runner Game"><img alt ="You died, Game Over" src ="roadrunner/9.jpg"></a>
+		
 		</div>
 
 		<br><br><br><br>
@@ -71,6 +73,7 @@
 		<p align="left">
 		Another project i have worked on is this website. This website also about 3-4 months to make like the road runner game. It was a quarter project that i worked on while in the DG club.
 		</p>
+		<br><br>
 
 
 
@@ -78,6 +81,7 @@
 
 		<script src="js/lightbox.js"></script>
 		<script src="js/jquery.justifiedGallery.min.js"></script>
+
 		<script>
 		$("#mygallery").justifiedGallery({
 		rowHeight: 400,

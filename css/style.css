@@ -59,7 +59,7 @@ hr
 	font-size: 20px;
 
 	background-size: cover;
-	background-position: center center;
+	background-position: center;
 }
 
 .about-top
@@ -132,7 +132,7 @@ hr
 	text-align: center;
 }
 
-div.transbox 
+.transbox 
 {
 
 	background-color: #ffffff;
@@ -141,9 +141,16 @@ div.transbox
 	filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-div.transbox
+.transbox
 {
 	font-weight: bold;
 	color: #000000;
 }
+
+.row    /*fix the button and column giving white space at right of screen*/
+{
+	margin: 0px;
+}
+
+
 
