@@ -4,8 +4,8 @@ html, body
 }
 body
 {
-	background-color: silver;
-	font-family: 'Audiowide', cursive;
+	background-color: white;
+	/*font-family: 'Audiowide', cursive;*/
 	margin: 0px;
 }
 
@@ -35,9 +35,9 @@ h4
 hr
 {
 	height: 10px;
+	margin: 0px;
 	color: black;
 	background-color: black;
-
 }
 
 .toptop
@@ -62,6 +62,18 @@ hr
 	background-position: center;
 }
 
+.index-top
+{
+	padding: 0%;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-height : 30%;
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+}
+
 .about-top
 {
 	padding: 0%;
@@ -76,11 +88,13 @@ hr
 
 	/*background-image: url("https://images.unsplash.com/photo-1427464407917-c817c9a0a6f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=812662922febc6b1006719224d6c3772");*/
 	/*background-image: url("https://images.unsplash.com/photo-1461354360854-e33a1d6f7905?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ddca7d960547ab7d689669055737f05e");*/
-	background-image: url("https://images.unsplash.com/photo-1461722971253-772f8366d59c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=520151935b4d162657a794292dfad173");
+	/*background-image: url("https://images.unsplash.com/photo-1461722971253-772f8366d59c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=520151935b4d162657a794292dfad173");*/
 	/*background-image: url("https://images.unsplash.com/photo-1425205753566-d863c51da60d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3cba52b1c2e9b5e6b4c0f05e4b6f4991");*/
+	background-image: url('image/ucdavissign.jpg');
 	background-size: cover;
 	background-position: center center;
 }
+
 .project-top
 {
 	padding: 0%;
@@ -150,6 +164,14 @@ hr
 .row    /*fix the button and column giving white space at right of screen*/
 {
 	margin: 0px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img
+{
+				width: 50%;
+				height: 500px;
+				margin: auto;
 }
 
 
